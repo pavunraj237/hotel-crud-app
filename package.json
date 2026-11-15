@@ -1,0 +1,13 @@
+{
+  "name": "hotel-crud-app",
+  "version": "1.0.0",
+  "description": "Hotel List CRUD application with React, Redux, Node.js, Express, and PostgreSQL",
+  "private": true,
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "init-db": "cd backend && npm run init-db",
+    "migrate": "cd backend && npm run migrate",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev"
+  }
+}
